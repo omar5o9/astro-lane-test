@@ -3,14 +3,14 @@
 import type { Site, SocialMediaObjects } from "./types";
 
 export const SITE: Site = {
-    siteUrl: "https:/astro-lane.chrstnl.com/", // Always put "/" at the end of the URL
-    author: "chrstnl",
+    siteUrl: "https:/mysite.com/", // Always put "/" at the end of the URL
+    author: "Omar",
     desc: "A personal portfolio landing template for developers and designers.",
-    title: "Astro Lane",
-    ogImage: "images/astro-lane.png",
+    title: "Soccer Blog",
+    ogImage: "images/mudryk.png",
     keywords:
         "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
-    postPerPage: 3
+    postPerPage: 4
 };
 
 // The site uses iconify - you can find icons on https://iconify.design/.
@@ -35,7 +35,7 @@ export const SOCIALS: SocialMediaObjects = [
         href: "https://github.com/christian-luntok/astro-lane/",
         icon: "ph:instagram-logo-duotone",
         title: `Follow ${SITE.author} on Instagram`,
-        active: true
+        active: false
     },
     {
         name: "LinkedIn",
@@ -89,8 +89,8 @@ export const SOCIALS: SocialMediaObjects = [
     {
         name: "Discord",
         href: "https://github.com/christian-luntok/astro-lane/",
-        icon: "",
+        icon: "ph:discord-logo",
         title: `${SITE.title} on Discord`,
-        active: false
+        active: true
     }
 ];
